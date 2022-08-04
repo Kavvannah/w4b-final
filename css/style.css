@@ -51,6 +51,7 @@ nav a:hover{
     color: #ECE5CF;
     float: right;
     text-align: right;
+    margin-right: 15px;
 }
 .hero.txt h1{
     font-size: 64px;
@@ -65,7 +66,7 @@ nav a:hover{
     background-color: #12425E;
     color: #ECE5CF;
     padding: 15px 40px;
-    margin-right: 15px;
+    
     text-decoration: none;
 }
 .hero.txt a:hover{
@@ -75,3 +76,78 @@ nav a:hover{
     transition: 0.2s;
 }
 /* end of hero */
+
+/* collection section */
+#collection h1{
+    font-size: 64px;
+    text-align: center;
+    padding: 45px 45px 20px 45px;
+    /* font-family: ; */
+}
+#collection hr{
+    border: 0;
+    border-top: 1px solid #000000;
+    margin: 20px 550px; padding-bottom: 20px;
+}
+#collection div{
+    float: left;
+    width: 33.33%;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+#collection img{
+    opacity: 1;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    filter: brightness(0.8);
+}
+#collection img:hover{
+    opacity: 0.3;
+}
+#collection h2{
+    position: absolute;
+    color: #ECE5CF;
+    font-size: 35px;
+    /* text-shadow: 2px 2px #000000; */
+}
+#collection a{
+    position: absolute;
+    background-color: #12425E;
+    padding: 10px 30px;
+    color: #ECE5CF;
+    text-align: center;
+    text-decoration: none;
+}
+#collection a:hover{
+    transition: .2s ease;
+    background-color: #1a628b;
+    
+}
+.anniversary h2{
+    top: 40%;
+    left: 26%;
+}
+.anniversary a{
+    top: 55%;
+    left: 38%;
+}
+.everyday h2{
+    top: 40%;
+    left: 35%;
+}
+.everyday a{
+    top:  54%;
+    left: 40%;
+}
+.birthday h2{
+    top: 40%;
+    left: 35%;
+}
+.birthday a{
+    top: 55%;
+    left: 40%;
+}
+/* end of collection section */
