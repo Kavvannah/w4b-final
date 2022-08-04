@@ -227,6 +227,37 @@ nav a:hover{
   }
   .column a{
     display: block;
-    margin-right: 70px;
+    background-color: #12425E;
+    padding: 10px 30px;
+    margin: 20px 70px 0 70px;
+    color: #ECE5CF;
+    text-align: center;
+    text-decoration: none;
   }
 /* end of august */
+
+/* Maps */
+#mapcontainer div{
+    float: right;
+}
+#mapcontainer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#mapcontainer h2{
+    font-size: 48px;
+    text-align: center;
+    margin: 100px 0 30px 0;
+}
+#mapcontainer span{
+    text;
+    text-align: start;
+    margin: 40px 0 30px 40px;
+}
+#mapcontainer li {
+    float: left;
+    display: block;
+   line-height: 2; 
+   position: relative;
+}
