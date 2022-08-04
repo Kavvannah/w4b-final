@@ -259,5 +259,45 @@ nav a:hover{
     float: left;
     display: block;
    line-height: 2; 
-   position: relative;
+   
 }
+/* end of maps */
+
+/* review */
+#review h1 {
+    font-size: 48px;
+    text-align: start;
+    margin: 50px 0px 0px 20px;
+}
+#review p {
+    margin-left: 25px;
+}
+#review a{
+    font-size: 26px;
+    display: block;
+    text-align: end;
+    padding: 20px;
+}
+.avatar a {
+    color: #000000;
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.avatar {
+    max-width: 350px;
+    margin: 20px 35px;
+    padding: 35px;
+    text-align: center;
+    border: 2px solid #ECE5CF;
+    box-sizing: border-box;
+    float: left;
+}
+.avatar img{
+    border-radius: 50%;
+}
+.checked {
+    margin-bottom: 20px;
+    color: #e9bf55;
+  }
