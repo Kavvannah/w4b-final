@@ -402,6 +402,10 @@ footer {
     margin-left: 3px;
     transition:all .25s;
   }
-  .footercontainer .right a:hover{transform:scale(1.1);}
-  .footercontainer .links a:hover{text-decoration:underline;}
+  .footercontainer .right a:hover {
+    transform:scale(1.1);
+}
+  .footercontainer .links a:hover {
+    text-decoration:underline;
+}
 /* end */
