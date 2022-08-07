@@ -190,6 +190,7 @@ nav a:hover{
     background-color: #12425E;
     color: #ECE5CF;
     padding: 15px 40px;
+    margin-top: 5px;
     text-decoration: none;
 }
 .vidtxt a:hover {
